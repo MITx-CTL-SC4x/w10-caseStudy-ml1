@@ -1,0 +1,1 @@
+order_id, product_id, order_status, order_year, order_month, order_day_of_week, customer_city, customer_state, item_qty, price, freight_value, product_category_name, product_weight_g, product_length_cm, product_height_cm, product_width_cm, seller_city, seller_state
