@@ -4,7 +4,7 @@ APP_TITLE = None
 # APP_TITLE = "SC4x | Week 10 | Case Study | ML 1"
 
 APP_INTRO = None
-# APP_INTRO = """This app uses an AI API (OpenAI, Gemini, or Claude) to provide feedback on an open response question about machine learning: Will we need all of these features for a classification model? Which features would you exclude?"""
+# APP_INTRO = """This app uses an AI API (OpenAI, Gemini, or Claude) to provide feedback on an open response question about machine learning: Do we need all of the features for a classification model? If not, which features would you exclude?"""
 
 APP_HOW_IT_WORKS = None
 # APP_HOW_IT_WORKS = """ """
