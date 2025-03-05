@@ -4,7 +4,7 @@ APP_TITLE = None
 # APP_TITLE = "SC4x | Week 10 | Case Study | ML 1"
 
 APP_INTRO = None
-# APP_INTRO = """This app uses an AI API (OpenAI, Gemini, or Claude) to provide feedback on an open response question about machine learning: Which classification algorithm(s) would you use?"""
+# APP_INTRO = """This app uses an AI API (OpenAI, Gemini, or Claude) to provide feedback on an open response question about machine learning: Will we need all of these features for a classification model? Which features would you exclude?"""
 
 APP_HOW_IT_WORKS = None
 # APP_HOW_IT_WORKS = """ """
@@ -29,8 +29,8 @@ PHASES = {
     "attempt1": {
         "type": "text_area",
         "height": 200,
-        "label": """Question 2: Which classification algorithm(s) would you use?""",
-        "instructions": """ The students are using machine learning for a classification problem. ... INSTRUCTIONS """,
+        "label": """Which features would you exclude (if any) for a classification model?""",
+        "instructions": """ The students are using machine learning for a classification problem to predict if an order may be delivered late or not. The features in the dataset they have available include: order_id, product_id, order_status, order_year, order_month, order_day_of_week, customer_city, customer_state, item_qty, price, freight_value, product_category_name, product_weight_g, product_length_cm, product_height_cm, product_width_cm, seller_city, and seller_state. They are asked if would exclude any of these features for a classification model. order_id and product_id would not useful for a model. The customer and seller location features (customer_city, customer_state, seller_city, and seller_state) provide similar information and they may only need one for customer and seller each. For some models, city make have too many categories and reduce performance, so state may be a more effective feature. They also may not need all of the dimensional features (product_weight_g, product_length_cm, product_height_cm, product_width_cm), and could focus on product_weight_g. They may create a composite feature for volume (e.g., product_length_cm x product_height_cm x product_width_cm). Please evaluate the response from the student and provide feedback based on some of these suggestions. """,
         "value": " ",
         "scored_phase": False,
         "rubric": """
