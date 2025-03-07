@@ -18,7 +18,7 @@ SHARED_ASSET = {}
 
 HTML_BUTTON = {}
 
-COMPLETION_MESSAGE = "Thank you for submitting a response!"
+COMPLETION_MESSAGE = "Thank you for the discussion!"
 COMPLETION_CELEBRATION = False
 
 SCORING_DEBUG_MODE = False
