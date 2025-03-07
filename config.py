@@ -53,7 +53,7 @@ PHASES = {
     "attempt3": {
         "type": "text_area",
         "height": 200,
-        "label": """Do you have any follow up comments or want clarification on the previous feedback?""",
+        "label": """Do you have any final comments or questions?""",
         "instructions": """ The students are using machine learning for a classification problem to predict if an order may be delivered late or not. The features in the dataset they have available include: order_id, product_id, order_status, order_year, order_month, order_day_of_week, customer_city, customer_state, item_qty, price, freight_value, product_category_name, product_weight_g, product_length_cm, product_height_cm, product_width_cm, seller_city, and seller_state. They are asked if would exclude any of these features for a classification model. order_id and product_id would not useful for a model. The customer and seller location features (customer_city, customer_state, seller_city, and seller_state) provide similar information and they may only need one for customer and seller each. For some models, city make have too many categories and reduce performance, so state may be a more effective feature. They also may not need all of the dimensional features (product_weight_g, product_length_cm, product_height_cm, product_width_cm), and could focus on product_weight_g. They may create a composite feature for volume (e.g., product_length_cm x product_height_cm x product_width_cm). Evaluate the following response from the student and provide feedback based on some of these suggestions. This is the student's last submission. They can't ask again. """,
         "value": " ",
         "scored_phase": False,
